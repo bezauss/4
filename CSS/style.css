@@ -56,7 +56,7 @@ body {
 .download{
   display: flex;
   color: #3f2aff;
-  background-image: url(4\img\download.png);
+  background-image: url(..\img\download.png);
   background-position: center left;
 }
 
