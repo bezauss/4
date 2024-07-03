@@ -56,7 +56,7 @@ body {
 .download{
   display: flex;
   color: #3f2aff;
-  background-image: url(..\img\download.png);
+  background-image: url(4\img\download.png);
   background-position: center left;
 }
 
@@ -139,7 +139,7 @@ margin-bottom: 10px;
   font-weight: 400px;
   font-size: 20px;
   line-height: 32px;
- color: #333;
+  color: #333;
 }
 
 
@@ -168,11 +168,7 @@ background-size: auto;
 background-repeat: no-repeat;
 }
 
-.back-image-1{
-  background-image: url(..\img\decorate-2.png);
-  background-position: right center;
-  background-size: auto;
-  background-repeat: no-repeat;
+.column image-column{
 
 }
 
@@ -188,3 +184,17 @@ ul li::marker{
   text-decoration: underline;
   text-decoration: #3f2aff;
 }
+
+.row { 
+  display: flex; 
+  }
+
+  .column {
+    flex: 50%;
+  }
+
+  .image-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
