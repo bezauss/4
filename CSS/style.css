@@ -56,8 +56,10 @@ body {
 .download{
   display: flex;
   color: #3f2aff;
-  background-image: url(4\img\download.png);
-  background-position: center left;
+  background-image: url(../img/download.png);
+  background-position:  left;
+  background-repeat: no-repeat;
+  padding-left: 30px;
 }
 
 .link:not(:last-child) {
@@ -81,7 +83,7 @@ body {
 
 .vto{
   margin-top: 0;
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .text {
@@ -168,9 +170,7 @@ background-size: auto;
 background-repeat: no-repeat;
 }
 
-.column image-column{
 
-}
 
 .second-class{
   font-size: 40px;
@@ -190,11 +190,15 @@ ul li::marker{
   }
 
   .column {
-    flex: 50%;
+    flex: 108%;
+    height: 100%;
   }
 
-  .image-column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image-column { 
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100%;
+
   }
